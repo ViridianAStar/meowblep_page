@@ -7,7 +7,7 @@ function navigateToPage(selectElement) {
 }
 
 function checkText() {
-    document.getElementById("myTextbox").addEventListener("input", function() {
+    document.getElementById("enterCode").addEventListener("input", function() {
         var textboxValue = this.value;
         var messageElement = document.getElementById("code");
 
