@@ -1,0 +1,36 @@
+body {
+    font-family: 'Cascadia Code', monospace;
+    background-color: #aaaaaa;
+    color: #303030;
+    margin: 0;
+    padding: 0;
+}
+
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: left;
+    padding: 20px;
+}
+
+h1 {
+    color: #034c9b;
+}
+
+.dropdown-container {
+    position: static;
+    display: inline;
+}
+
+select {
+    font-size: 16px;
+    padding: 10px;
+    cursor: pointer;
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    background: no-repeat right center;
+    border: 1px solid #000000;
+    border-radius: 5px;
+}

@@ -3,21 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Webpage</title>
+    <title>Image Dropdown Page</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
     <div class="container">
-        <h1>Welcome to My Webpage</h1>
+        <h1>Welcome to Meowblep</h1>
 
-        <p>This is some generic information about the webpage. Feel free to replace it with your own content.</p>
-
-        <button id="button1">Click me!</button>
-        <button id="button2">Another button</button>
-        <button id="button3">Third button</button>
+        <div class="dropdown-container">
+            <select id="pageSelector" onchange="navigateToPage(this)">
+                <option value="" selected disabled>Where to?</option>
+                <option value="pages/what_is">What is this?</option>
+                <option value="pages/active_projects">Active Projects</option>
+                <option value="pages/thermite_linux">Thermite_linux</option>
+            </select>
+        </div>
     </div>
 
-    <script src="script.js"></script>
+    <script src="main.js"></script>
 </body>
 </html>
