@@ -11,6 +11,14 @@
 <body>
     TD_IMS is a Python based inventory tracking and managment solution specifically designed for Vex Robotics equipment however, it can be adapted to any use case you'd like.
     TD_IMS can be found <a href="https://github.com/ThermiteDG/TD_IMS">here</a>.
-</body>
 
-Click this to <a href="../index.html">return home</a>
+    <div class="dropdown-container">
+        <select id="pageSelector" onchange="navigateToPage(this)">
+            <option value="" selected disabled>Where to?</option>
+            <option value="pages/what_is">What is this?</option>
+            <option value="/index">Home</option>
+            <option value="pages/completed_projects">Completed Projects</option>
+            <option value="pages/thermite_linux">Thermite_linux</option>
+        </select>
+    </div>
+</body>
